@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://psim.github.io/sitemap.xml
+Sitemap: https://psim.github.io/MDI-Readiness-Extended/sitemap.xml
