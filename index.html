@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pietro Di Simplicio — projects</title>
-<meta name="description" content="Projects by Pietro Di Simplicio, including MDI-Readiness-Extended, an extended build of Microsoft's Test-MdiReadiness.ps1 readiness script for Microsoft Defender for Identity.">
+<meta name="description" content="Projects by Pietro Di Simplicio, including MDI-Readiness-Extended, an unofficial PowerShell script that reports whether an Active Directory environment meets the prerequisites for a Microsoft Defender for Identity sensor.">
 <link rel="canonical" href="https://psim.github.io/">
 <meta name="google-site-verification" content="BwITkyTCdSrBboXYemjGxwGOK5fzJfLhEVU-u2AyQ9s" />
 <style>
@@ -30,13 +30,11 @@
 
   <div class="card">
     <h2><a href="https://psim.github.io/MDI-Readiness-Extended/">MDI-Readiness-Extended</a></h2>
-    <p>An extended build of Microsoft's <code>Test-MdiReadiness.ps1</code>, the script that checks
-       whether Active Directory is ready for a Microsoft Defender for Identity sensor. Adds
-       forest-wide scanning, required network port and name resolution (NNR) validation, sensor
-       v3.x upgrade readiness, capacity planning, a generated remediation script and a redesigned
-       HTML report.</p>
-    <p>Its guiding rule: a prerequisite the script could not read is reported as unread, never as
-       a pass.</p>
+    <p>An unofficial PowerShell script that reports whether an Active Directory environment meets
+       the prerequisites for a Microsoft Defender for Identity sensor. It performs forest-wide
+       scanning, network port and name resolution (NNR) checks, sensor v3.x readiness checks and
+       capacity planning, and produces a self-contained HTML report.</p>
+    <p>A prerequisite it could not read is reported as not measured, never as a pass.</p>
     <p class="links">
       <a href="https://psim.github.io/MDI-Readiness-Extended/">Project page</a>
       <a href="https://github.com/psim/MDI-Readiness-Extended">Source</a>
